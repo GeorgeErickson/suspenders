@@ -153,7 +153,7 @@ end
 
     def configure_spec_support_features
       empty_directory_with_keep_file 'spec/features'
-      empty_directory_with_keep_file 'spec/support/features'
+      directory 'spec/support/features', 'spec/support/features'
     end
 
     def configure_rspec
